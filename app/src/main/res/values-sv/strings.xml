@@ -102,6 +102,7 @@
 	<string name="want_to_restore_icon">Ta bort ikonmappning?</string>
 	<string name="all">Alla</string>
 	<string name="app_icon">Appikon</string>
-	<string name="user_profile_locked">Användarprofil låst</string>
-	<string name="activity_not_enabled">Aktivitet ej aktiverad</string>
+	<string name="alphabet_filtering">Alfabetisk filtrering</string>
+	<string name="alphabet_filtering_yes">Ja (Endast för språk med latinska tecken)</string>
+	<string name="alphabet_filtering_no">Nej</string>
 </resources>

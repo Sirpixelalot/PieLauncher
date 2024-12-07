@@ -1368,7 +1368,8 @@ public class AppPieView extends View {
 
 		// Manually draw an icon grid because GridView doesn't perform too
 		// well on low-end devices and doing it manually gives us more control.
-		int innerWidth = viewWidth - listPadding * 2;
+		int rightPadding = prefs.isAlphabetFiltering() ? Math.round(35f * dp) : 0;
+		int innerWidth = viewWidth - listPadding * 2 - rightPadding;
 		int columns = Math.min(5, innerWidth / (iconSize + spaceBetween));
 		boolean showAppNames = showAppNames();
 		int iconAndTextHeight = iconSize + (showAppNames

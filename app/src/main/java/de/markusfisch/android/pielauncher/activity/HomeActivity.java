@@ -349,7 +349,7 @@ public class HomeActivity extends Activity {
 
 		searchInput.setVisibility(View.VISIBLE);
 		prefsButton.setVisibility(View.VISIBLE);
-		setAlpha(searchInput, 1f);
+		alphabetSidebar.setVisibility(prefs.isAlphabetFiltering() ? View.VISIBLE : View.GONE);
 		if (prefs.displayKeyboard()) {
 			kb.showFor(searchInput);
 		}
